@@ -85,7 +85,7 @@ Progressive Overload Tracker is a mobile app designed for weightlifters who want
   - Home
 
 ## Wireframes
--  <img src="https://drive.google.com/drive/folders/1Mi9VnaLWSFfcTwiCW1d2bEqlkz4ssLGQ" width=600>` 
+-  <img src="https://pasteboard.co/xHBWhe2ncGZM.jpg" width=600>` 
 
 ### [BONUS] Digital Wireframes & Mockups
 
