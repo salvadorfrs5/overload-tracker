@@ -14,15 +14,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        // Create a DateFormatter
+        
                 let dateFormatter = DateFormatter()
-                dateFormatter.dateFormat = "EEEE, MMM d, yyyy" // Customize the date format as you prefer
+                dateFormatter.dateFormat = "EEEE, MMM d, yyyy"
 
                 // Get the current date
                 let currentDate = Date()
 
                 // Format the date and set it to the label
-                dateLabel.text = dateFormatter.string(from: currentDate)
+        self.title = dateFormatter.string(from: currentDate)
     }
 
 
