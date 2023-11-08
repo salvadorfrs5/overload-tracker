@@ -102,3 +102,9 @@ Progressive Overload Tracker is a mobile app designed for weightlifters who want
 ### Models
 
 ### Networking
+
+### Progress for Unit 8
+
+    - Structs were created for each workout and user
+    - A View Controller containing a TableView and TableViewCells was created to display individual workouts
+    - The View Controller's navigation title was formatted to contain the current date. In the next code sprint, the title will be changed to reflect the current week.
