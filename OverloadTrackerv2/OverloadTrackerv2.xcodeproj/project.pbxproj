@@ -7,31 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D830026F2AFAFD87009B17CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D830026E2AFAFD87009B17CE /* AppDelegate.swift */; };
-		D83002712AFAFD87009B17CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83002702AFAFD87009B17CE /* SceneDelegate.swift */; };
-		D83002732AFAFD87009B17CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83002722AFAFD87009B17CE /* ViewController.swift */; };
-		D83002762AFAFD87009B17CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83002742AFAFD87009B17CE /* Main.storyboard */; };
-		D83002782AFAFD88009B17CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83002772AFAFD88009B17CE /* Assets.xcassets */; };
-		D830027B2AFAFD88009B17CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83002792AFAFD88009B17CE /* LaunchScreen.storyboard */; };
-		D83002832AFB0192009B17CE /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83002822AFB0192009B17CE /* Workout.swift */; };
-		D83002852AFB01A7009B17CE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83002842AFB01A7009B17CE /* User.swift */; };
+		D8A963C92B02BAFD00333A0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A963C82B02BAFD00333A0B /* AppDelegate.swift */; };
+		D8A963CB2B02BAFD00333A0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A963CA2B02BAFD00333A0B /* SceneDelegate.swift */; };
+		D8A963CD2B02BAFD00333A0B /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A963CC2B02BAFD00333A0B /* WorkoutViewController.swift */; };
+		D8A963D02B02BAFD00333A0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A963CE2B02BAFD00333A0B /* Main.storyboard */; };
+		D8A963D22B02BAFE00333A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A963D12B02BAFE00333A0B /* Assets.xcassets */; };
+		D8A963D52B02BAFE00333A0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A963D32B02BAFE00333A0B /* LaunchScreen.storyboard */; };
+		D8A963DD2B02BBB700333A0B /* WorkoutInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A963DC2B02BBB700333A0B /* WorkoutInputViewController.swift */; };
+		D8A963DF2B02BBE800333A0B /* WorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A963DE2B02BBE800333A0B /* WorkoutCell.swift */; };
+		D8A963E12B02BC1600333A0B /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A963E02B02BC1600333A0B /* Workout.swift */; };
+		D8A963E72B02FAF300333A0B /* ShowExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A963E62B02FAF300333A0B /* ShowExercises.swift */; };
+		D8A963E92B030F4600333A0B /* ExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A963E82B030F4600333A0B /* ExerciseCell.swift */; };
+		D8A963EB2B0422C900333A0B /* EditExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A963EA2B0422C900333A0B /* EditExercise.swift */; };
+		D8A963ED2B04368E00333A0B /* SetDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A963EC2B04368D00333A0B /* SetDataCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D830026B2AFAFD87009B17CE /* OverloadTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverloadTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D830026E2AFAFD87009B17CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D83002702AFAFD87009B17CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D83002722AFAFD87009B17CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D83002752AFAFD87009B17CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D83002772AFAFD88009B17CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D830027A2AFAFD88009B17CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D830027C2AFAFD88009B17CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D83002822AFB0192009B17CE /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
-		D83002842AFB01A7009B17CE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D8A963C52B02BAFD00333A0B /* OverloadTrackerv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverloadTrackerv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A963C82B02BAFD00333A0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8A963CA2B02BAFD00333A0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D8A963CC2B02BAFD00333A0B /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		D8A963CF2B02BAFD00333A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8A963D12B02BAFE00333A0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8A963D42B02BAFE00333A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8A963D62B02BAFE00333A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8A963DC2B02BBB700333A0B /* WorkoutInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutInputViewController.swift; sourceTree = "<group>"; };
+		D8A963DE2B02BBE800333A0B /* WorkoutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCell.swift; sourceTree = "<group>"; };
+		D8A963E02B02BC1600333A0B /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		D8A963E62B02FAF300333A0B /* ShowExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowExercises.swift; sourceTree = "<group>"; };
+		D8A963E82B030F4600333A0B /* ExerciseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCell.swift; sourceTree = "<group>"; };
+		D8A963EA2B0422C900333A0B /* EditExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditExercise.swift; sourceTree = "<group>"; };
+		D8A963EC2B04368D00333A0B /* SetDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDataCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D83002682AFAFD87009B17CE /* Frameworks */ = {
+		D8A963C22B02BAFD00333A0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,74 +51,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D83002622AFAFD87009B17CE = {
+		D8A963BC2B02BAFD00333A0B = {
 			isa = PBXGroup;
 			children = (
-				D830026D2AFAFD87009B17CE /* OverloadTracker */,
-				D830026C2AFAFD87009B17CE /* Products */,
+				D8A963C72B02BAFD00333A0B /* OverloadTrackerv2 */,
+				D8A963C62B02BAFD00333A0B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D830026C2AFAFD87009B17CE /* Products */ = {
+		D8A963C62B02BAFD00333A0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D830026B2AFAFD87009B17CE /* OverloadTracker.app */,
+				D8A963C52B02BAFD00333A0B /* OverloadTrackerv2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D830026D2AFAFD87009B17CE /* OverloadTracker */ = {
+		D8A963C72B02BAFD00333A0B /* OverloadTrackerv2 */ = {
 			isa = PBXGroup;
 			children = (
-				D830026E2AFAFD87009B17CE /* AppDelegate.swift */,
-				D83002702AFAFD87009B17CE /* SceneDelegate.swift */,
-				D83002722AFAFD87009B17CE /* ViewController.swift */,
-				D83002742AFAFD87009B17CE /* Main.storyboard */,
-				D83002822AFB0192009B17CE /* Workout.swift */,
-				D83002842AFB01A7009B17CE /* User.swift */,
-				D83002772AFAFD88009B17CE /* Assets.xcassets */,
-				D83002792AFAFD88009B17CE /* LaunchScreen.storyboard */,
-				D830027C2AFAFD88009B17CE /* Info.plist */,
+				D8A963C82B02BAFD00333A0B /* AppDelegate.swift */,
+				D8A963EC2B04368D00333A0B /* SetDataCell.swift */,
+				D8A963CA2B02BAFD00333A0B /* SceneDelegate.swift */,
+				D8A963CC2B02BAFD00333A0B /* WorkoutViewController.swift */,
+				D8A963DC2B02BBB700333A0B /* WorkoutInputViewController.swift */,
+				D8A963DE2B02BBE800333A0B /* WorkoutCell.swift */,
+				D8A963EA2B0422C900333A0B /* EditExercise.swift */,
+				D8A963E02B02BC1600333A0B /* Workout.swift */,
+				D8A963CE2B02BAFD00333A0B /* Main.storyboard */,
+				D8A963E62B02FAF300333A0B /* ShowExercises.swift */,
+				D8A963E82B030F4600333A0B /* ExerciseCell.swift */,
+				D8A963D12B02BAFE00333A0B /* Assets.xcassets */,
+				D8A963D32B02BAFE00333A0B /* LaunchScreen.storyboard */,
+				D8A963D62B02BAFE00333A0B /* Info.plist */,
 			);
-			path = OverloadTracker;
+			path = OverloadTrackerv2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D830026A2AFAFD87009B17CE /* OverloadTracker */ = {
+		D8A963C42B02BAFD00333A0B /* OverloadTrackerv2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D830027F2AFAFD88009B17CE /* Build configuration list for PBXNativeTarget "OverloadTracker" */;
+			buildConfigurationList = D8A963D92B02BAFE00333A0B /* Build configuration list for PBXNativeTarget "OverloadTrackerv2" */;
 			buildPhases = (
-				D83002672AFAFD87009B17CE /* Sources */,
-				D83002682AFAFD87009B17CE /* Frameworks */,
-				D83002692AFAFD87009B17CE /* Resources */,
+				D8A963C12B02BAFD00333A0B /* Sources */,
+				D8A963C22B02BAFD00333A0B /* Frameworks */,
+				D8A963C32B02BAFD00333A0B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OverloadTracker;
-			productName = OverloadTracker;
-			productReference = D830026B2AFAFD87009B17CE /* OverloadTracker.app */;
+			name = OverloadTrackerv2;
+			productName = OverloadTrackerv2;
+			productReference = D8A963C52B02BAFD00333A0B /* OverloadTrackerv2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D83002632AFAFD87009B17CE /* Project object */ = {
+		D8A963BD2B02BAFD00333A0B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					D830026A2AFAFD87009B17CE = {
+					D8A963C42B02BAFD00333A0B = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
 			};
-			buildConfigurationList = D83002662AFAFD87009B17CE /* Build configuration list for PBXProject "OverloadTracker" */;
+			buildConfigurationList = D8A963C02B02BAFD00333A0B /* Build configuration list for PBXProject "OverloadTrackerv2" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,57 +131,62 @@
 				en,
 				Base,
 			);
-			mainGroup = D83002622AFAFD87009B17CE;
-			productRefGroup = D830026C2AFAFD87009B17CE /* Products */;
+			mainGroup = D8A963BC2B02BAFD00333A0B;
+			productRefGroup = D8A963C62B02BAFD00333A0B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D830026A2AFAFD87009B17CE /* OverloadTracker */,
+				D8A963C42B02BAFD00333A0B /* OverloadTrackerv2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D83002692AFAFD87009B17CE /* Resources */ = {
+		D8A963C32B02BAFD00333A0B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D830027B2AFAFD88009B17CE /* LaunchScreen.storyboard in Resources */,
-				D83002782AFAFD88009B17CE /* Assets.xcassets in Resources */,
-				D83002762AFAFD87009B17CE /* Main.storyboard in Resources */,
+				D8A963D52B02BAFE00333A0B /* LaunchScreen.storyboard in Resources */,
+				D8A963D22B02BAFE00333A0B /* Assets.xcassets in Resources */,
+				D8A963D02B02BAFD00333A0B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D83002672AFAFD87009B17CE /* Sources */ = {
+		D8A963C12B02BAFD00333A0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D83002732AFAFD87009B17CE /* ViewController.swift in Sources */,
-				D830026F2AFAFD87009B17CE /* AppDelegate.swift in Sources */,
-				D83002712AFAFD87009B17CE /* SceneDelegate.swift in Sources */,
-				D83002852AFB01A7009B17CE /* User.swift in Sources */,
-				D83002832AFB0192009B17CE /* Workout.swift in Sources */,
+				D8A963ED2B04368E00333A0B /* SetDataCell.swift in Sources */,
+				D8A963CD2B02BAFD00333A0B /* WorkoutViewController.swift in Sources */,
+				D8A963DF2B02BBE800333A0B /* WorkoutCell.swift in Sources */,
+				D8A963E72B02FAF300333A0B /* ShowExercises.swift in Sources */,
+				D8A963C92B02BAFD00333A0B /* AppDelegate.swift in Sources */,
+				D8A963DD2B02BBB700333A0B /* WorkoutInputViewController.swift in Sources */,
+				D8A963E92B030F4600333A0B /* ExerciseCell.swift in Sources */,
+				D8A963CB2B02BAFD00333A0B /* SceneDelegate.swift in Sources */,
+				D8A963E12B02BC1600333A0B /* Workout.swift in Sources */,
+				D8A963EB2B0422C900333A0B /* EditExercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D83002742AFAFD87009B17CE /* Main.storyboard */ = {
+		D8A963CE2B02BAFD00333A0B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D83002752AFAFD87009B17CE /* Base */,
+				D8A963CF2B02BAFD00333A0B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D83002792AFAFD88009B17CE /* LaunchScreen.storyboard */ = {
+		D8A963D32B02BAFE00333A0B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D830027A2AFAFD88009B17CE /* Base */,
+				D8A963D42B02BAFE00333A0B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,7 +194,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D830027D2AFAFD88009B17CE /* Debug */ = {
+		D8A963D72B02BAFE00333A0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +254,7 @@
 			};
 			name = Debug;
 		};
-		D830027E2AFAFD88009B17CE /* Release */ = {
+		D8A963D82B02BAFE00333A0B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,7 +308,7 @@
 			};
 			name = Release;
 		};
-		D83002802AFAFD88009B17CE /* Debug */ = {
+		D8A963DA2B02BAFE00333A0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -296,7 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OverloadTracker/Info.plist;
+				INFOPLIST_FILE = OverloadTrackerv2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -307,7 +327,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SalvadorFrias.OverloadTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = SalvadorFrias.OverloadTrackerv2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -315,7 +335,7 @@
 			};
 			name = Debug;
 		};
-		D83002812AFAFD88009B17CE /* Release */ = {
+		D8A963DB2B02BAFE00333A0B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -323,7 +343,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OverloadTracker/Info.plist;
+				INFOPLIST_FILE = OverloadTrackerv2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,7 +354,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SalvadorFrias.OverloadTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = SalvadorFrias.OverloadTrackerv2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -345,25 +365,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D83002662AFAFD87009B17CE /* Build configuration list for PBXProject "OverloadTracker" */ = {
+		D8A963C02B02BAFD00333A0B /* Build configuration list for PBXProject "OverloadTrackerv2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D830027D2AFAFD88009B17CE /* Debug */,
-				D830027E2AFAFD88009B17CE /* Release */,
+				D8A963D72B02BAFE00333A0B /* Debug */,
+				D8A963D82B02BAFE00333A0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D830027F2AFAFD88009B17CE /* Build configuration list for PBXNativeTarget "OverloadTracker" */ = {
+		D8A963D92B02BAFE00333A0B /* Build configuration list for PBXNativeTarget "OverloadTrackerv2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D83002802AFAFD88009B17CE /* Debug */,
-				D83002812AFAFD88009B17CE /* Release */,
+				D8A963DA2B02BAFE00333A0B /* Debug */,
+				D8A963DB2B02BAFE00333A0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D83002632AFAFD87009B17CE /* Project object */;
+	rootObject = D8A963BD2B02BAFD00333A0B /* Project object */;
 }

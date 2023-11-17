@@ -28,19 +28,19 @@ Progressive Overload Tracker is a mobile app designed for weightlifters who want
 
 **Required Must-have Stories**
 
-- User can create an account and log in.
-- User can input exercise data, including sets, reps, and weight lifted, for each workout session.
-- User can view and edit their workout history.
-- User can compare their current week's performance with the previous week.
-- User can set specific goals for each exercise.
-- User can visualize their progress through graphs and charts.
+- [x] UI displays current date and workout week
+- [x] User can create workouts and exercises
+- [x] User can view/delete their created workouts
+- [] User can compare their current week's performance with the previous week.
+- [] User can set specific goals for each exercise.
+- [] User can visualize their progress through graphs and charts.
 
 **Optional Nice-to-have Stories**
 
-- User receives workout reminders.
-- User can share their achievements and progress with friends or the fitness community.
-- User can view visualized progression data in the form of weekly, monthly, and yearly graphs to asses PR progress.
-- User can access a comprehensive library of weightlifting exercises with detailed instructions and videos.
+- [] User receives workout reminders.
+- [] User can share their achievements and progress with friends or the fitness community.
+- [] User can view visualized progression data in the form of weekly, monthly, and yearly graphs to asses PR progress.
+- [] User can access a comprehensive library of weightlifting exercises with detailed instructions and videos.
 
 ### 2. Screen Archetypes
 
@@ -55,8 +55,7 @@ Progressive Overload Tracker is a mobile app designed for weightlifters who want
   - User can input exercise data, such as sets/reps/weight for each workout session.
 - Progress Visualization
   - User can view graphs and charts of their workout progress.
-- Profile
-  - User can set goals and access account settings.
+- User can set goals and access account settings.
 
 ### 3. Navigation
 
@@ -87,24 +86,26 @@ Progressive Overload Tracker is a mobile app designed for weightlifters who want
 ## Wireframes
 -  <img src="https://i.imgur.com/uzeh57e.jpg" width=600>` 
 
-### [BONUS] Digital Wireframes & Mockups
-
-[Include any digital wireframes or mockups here]
-
-### [BONUS] Interactive Prototype
-
-[Include a link to your interactive prototype here]
-
-## Schema
-
-[This section will be completed in Unit 9]
-
-### Models
-
-### Networking
-
-### Progress for Unit 8
+### Progress for Unit 8 (Sprint 1)
 
     - Structs were created for each workout and user
     - A View Controller containing a TableView and TableViewCells was created to display individual workouts
     - The View Controller's navigation title was formatted to contain the current date. In the next code sprint, the title will be changed to reflect the current week.
+
+### Progress for Unit 9 (Sprint 2)
+
+    - In preparation for Demo Day, additional view/navigation controllers were added to enable workout creation and editing.
+    - Two navigation controllers were implemented. One leads to a workout creation page which enables the user to name a workout and the corresponding day of the split (Day 1-7) and the other leads to the corresponding workout's exercises.
+    - Within this exercise view controller, users can add new exercises to the selected workout. All exercises, like the workouts, are displayed via a table view.
+    - When an exercise cell is tapped, another view controller appears. While unfinished, this next page is for users to enter their performance for each individual set or the selected exercise (such as weight lifted and reps performed). Each set will also be displayed in a table view.
+    - Each view controller passes part of a "Workout"  struct that contains nested arrays of exercises and exercise performance. After editing workout data, a save function (that is implemented within the struct) is called to encode and save all edits to UserDefaults.  
+    
+## Video Demo
+
+<div>
+    <a href="https://www.loom.com/share/1f558fd9cb6d425cbf68597b9ccc7803">
+    </a>
+    <a href="https://www.loom.com/share/1f558fd9cb6d425cbf68597b9ccc7803">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/1f558fd9cb6d425cbf68597b9ccc7803-with-play.gif">
+    </a>
+  </div>
