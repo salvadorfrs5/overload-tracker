@@ -98,7 +98,7 @@ Progressive Overload Tracker is a mobile app designed for weightlifters who want
     - Two navigation controllers were implemented. One leads to a workout creation page which enables the user to name a workout and the corresponding day of the split (Day 1-7) and the other leads to the corresponding workout's exercises.
     - Within this exercise view controller, users can add new exercises to the selected workout. All exercises, like the workouts, are displayed via a table view.
     - When an exercise cell is tapped, another view controller appears. While unfinished, this next page is for users to enter their performance for each individual set or the selected exercise (such as weight lifted and reps performed). Each set will also be displayed in a table view.
-    - Each view controller passes part of a "Workout"  struct that contains nested arrays of exercises and exercise performance. After editing workout data, a save function (that is implemented within the struct) is called to encode and save all edits to UserDefaults.  
+    - Each view controller passes part of a "Workout"  struct (via a segue) that contains nested arrays of exercises and exercise performance. After editing workout data, a save function (that is implemented within the struct) is called to encode and save all edits to UserDefaults.  
     
 ## Video Demo
 
