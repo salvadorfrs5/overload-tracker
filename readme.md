@@ -31,16 +31,16 @@ Progressive Overload Tracker is a mobile app designed for weightlifters who want
 - [x] UI displays current date and workout week
 - [x] User can create workouts and exercises
 - [x] User can view/delete their created workouts
-- [] User can compare their current week's performance with the previous week.
+<!-- - [] User can compare their current week's performance with the previous week.
 - [] User can set specific goals for each exercise.
-- [] User can visualize their progress through graphs and charts.
+- [] User can visualize their progress through graphs and charts. -->
 
-**Optional Nice-to-have Stories**
+<!-- **Optional Nice-to-have Stories**
 
 - [] User receives workout reminders.
 - [] User can share their achievements and progress with friends or the fitness community.
 - [] User can view visualized progression data in the form of weekly, monthly, and yearly graphs to asses PR progress.
-- [] User can access a comprehensive library of weightlifting exercises with detailed instructions and videos.
+- [] User can access a comprehensive library of weightlifting exercises with detailed instructions and videos. -->
 
 ### 2. Screen Archetypes
 
